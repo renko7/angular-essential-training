@@ -5,16 +5,6 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'mw-app',
     templateUrl: './app.component.html',
-    styles: [`
-        h1 {
-            color: red;
-        }
-        h2 {
-            color: orange;
-        }`,`
-        .description {
-            color: yellow;
-        }
-    `]
+    styleUrls: [`./app.component.css`]
 })
 export class AppComponent{}
