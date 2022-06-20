@@ -4,6 +4,17 @@ import { Component } from '@angular/core';
 // W3 standard says to have a prefix for all custom DOM properties
 @Component({
     selector: 'mw-app',
-    templateUrl: './app.component.html'
+    templateUrl: './app.component.html',
+    styles: [`
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: orange;
+        }`,`
+        .description {
+            color: yellow;
+        }
+    `]
 })
 export class AppComponent{}
